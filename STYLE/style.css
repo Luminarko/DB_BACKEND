@@ -1,0 +1,13 @@
+table{
+    border-collapse: collapse;
+}
+td{
+    border: 2px black solid;
+}
+.header{
+    background-color: lightgrey;
+    
+}
+
+
+/*INSERT INTO auto (brand, model, date_prod) VALUES ("Renault", "Twingo", "2003-04-15"), ("Subaru", "Impreza", "1998-09-01");/*

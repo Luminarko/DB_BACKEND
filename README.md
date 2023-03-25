@@ -1,8 +1,10 @@
 # DB_BACKEND
 ## Uvítací strana
 Když otevřete webovou aplikaci ukáže se vám tabulka se všemi daty s daty o uložených vozech.
+
 ![image](https://user-images.githubusercontent.com/92807683/227720623-2114e1f0-080b-4bd1-b333-9f468788a1d8.png)
 Jak jste si mohli povšimnout, v prvém rohu je tlačítko "Login", které vám po přihlašení za administrativní účet umožní data v tabulce upravovat. 
+
 ![image](https://user-images.githubusercontent.com/92807683/227720682-9e7fdbd7-6321-4eea-a6fb-2ac9c28e0c1f.png)
 
 ## Administrativní editovací strana

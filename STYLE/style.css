@@ -6,8 +6,24 @@ td{
 }
 .header{
     background-color: lightgrey;
+    font-weight: bold;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+h1{
     
 }
-
-
-/*INSERT INTO auto (brand, model, date_prod) VALUES ("Renault", "Twingo", "2003"), ("Subaru", "Impreza", "1998"), ("Suzuki", "Ignis", "2003");/*
+main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+table{
+    text-align: center;
+}

@@ -1,6 +1,7 @@
 <?php
 include "../DB/dbh.php";
 
+session_start();
 //GETTING ALL DATA
 $sql = "SELECT * FROM auto";
 $result = $mysqli->query($sql);
@@ -11,16 +12,14 @@ foreach($result as $row){
     $date[] = $row["date_prod"];
 }
 //LOGOUT
-function logout(){
-    session_destroy();
-    header('Location: ' . 'login.php');
-}
-
-//echo "<button class='logout' onclick=\"logout()\">Logout</button>";
+echo "<header><h1>CAR LIST - ADMIN</h1>";
+echo "<button class='logout' onclick='location.href = \"logout.php\"'>Logout</button>";
+echo "</header>";   
 
 //TABLE GEN
 $i = 0;
 $action = "../FUNC/action.php";
+echo '<main>';
 echo '<link rel="stylesheet" href="../STYLE/style.css">';
 echo "<table>";
 echo "<tr class='header'><td>Brand</td><td>Model</td><td>Year of production</td><td><form action='../FUNC/action.php' method='POST'><input type='submit' id='insert' name='action' value='Insert'></form></td></tr>";
@@ -36,3 +35,4 @@ foreach($brand as $row){
     $i++;
 }
 echo "</table>";
+echo '</main>';

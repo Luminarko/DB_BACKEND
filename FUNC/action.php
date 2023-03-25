@@ -24,9 +24,9 @@ if ($_POST["action"] == "E"){
 if ($_POST["action"] == "Insert"){
     echo "<h1>INSERT</h1>";
     echo "<form action='insert.php' method='POST'>";
-    echo "<textarea placeholder='Brand of car...' name='brand'></textarea>";
-    echo "<textarea placeholder='Model of car...' name='model'></textarea>";
-    echo "<textarea type='number' placeholder='Year of production...' name='year'></textarea>";
+    echo "<textarea placeholder='Brand of car...' name='brand' required></textarea>";
+    echo "<textarea placeholder='Model of car...' name='model' required></textarea>";
+    echo "<textarea type='number' placeholder='Year of production...' name='year' required></textarea>";
     echo "<input type='submit' name='action' value='Submit'>";
     echo "</form>";
 }

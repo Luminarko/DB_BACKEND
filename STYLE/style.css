@@ -15,7 +15,15 @@ header{
     justify-content: space-around;
 }
 h1{
-    
+    text-align: center;
+}
+form{
+    text-align: center;
+}
+a{
+    position: relative;
+    left: 44.5%;
+    margin-bottom: 5%;
 }
 main{
     display: flex;
@@ -23,6 +31,12 @@ main{
     flex-wrap: wrap;
     margin-left: 10%;
     margin-right: 10%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40%;
+    margin-right: 40%;
 }
 table{
     text-align: center;

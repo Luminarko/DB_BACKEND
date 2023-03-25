@@ -1,6 +1,8 @@
 <?php
 require "../DB/dbh.php";
 
+echo "<link rel='stylesheet' href='../STYLE/style.css'>";
+
 if ($_POST["action"] == "D"){
     echo "<h1>DELETE</h1>";
     echo "<a>Are you sure you want to delete?</a>";
